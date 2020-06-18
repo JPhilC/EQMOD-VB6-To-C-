@@ -1,0 +1,98 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VB6 Code", "VB6 Code", "{5489F8F6-0034-42BA-865D-89A39CB35EE0}"
+	ProjectSection(SolutionItems) = preProject
+		Alignment.bas = Alignment.bas
+		astro32.bas = astro32.bas
+		Common.bas = Common.bas
+		Definitions.bas = Definitions.bas
+		Definitions_sim.bas = Definitions_sim.bas
+		eqcontrl.bas = eqcontrl.bas
+		EQMath.bas = EQMath.bas
+		eqmodnmea.cls = eqmodnmea.cls
+		eqmodvector.bas = eqmodvector.bas
+		ErrorConstants.bas = ErrorConstants.bas
+		FFT.bas = FFT.bas
+		Goto.bas = Goto.bas
+		Graphics.bas = Graphics.bas
+		JStickKbrd.bas = JStickKbrd.bas
+		LangDll.cls = LangDll.cls
+		Language.bas = Language.bas
+		LaunchApp.bas = LaunchApp.bas
+		Limits.bas = Limits.bas
+		Monitor.bas = Monitor.bas
+		Mount.bas = Mount.bas
+		MouseWheel.bas = MouseWheel.bas
+		Nstar_Polar.bas = Nstar_Polar.bas
+		Parking.bas = Parking.bas
+		PEC.bas = PEC.bas
+		Persist.cls = Persist.cls
+		ProcessPriority.bas = ProcessPriority.bas
+		Rate.cls = Rate.cls
+		Rates.cls = Rates.cls
+		Sim_Common.bas = Sim_Common.bas
+		Sites.bas = Sites.bas
+		Sounds.bas = Sounds.bas
+		Telescope.cls = Telescope.cls
+		Tracking.bas = Tracking.bas
+		TrackingRates.cls = TrackingRates.cls
+		UpdateCheck.bas = UpdateCheck.bas
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forms", "Forms", "{F2AFB3FD-7920-4973-8802-F2CA14390EB9}"
+	ProjectSection(SolutionItems) = preProject
+		Align.frm = Align.frm
+		AscomTrace.frm = AscomTrace.frm
+		AscomTrace.frx = AscomTrace.frx
+		ColorPick.frm = ColorPick.frm
+		ColorPick.frx = ColorPick.frx
+		CommentDlg.frm = CommentDlg.frm
+		CustomMountDlg.frm = CustomMountDlg.frm
+		CustomMountDlg.frx = CustomMountDlg.frx
+		DefineParkForm.frm = DefineParkForm.frm
+		DefineParkForm.frx = DefineParkForm.frx
+		eqmain.frm = eqmain.frm
+		eqmain.frx = eqmain.frx
+		FeaturesDlg.frm = FeaturesDlg.frm
+		FileDlg.frm = FileDlg.frm
+		FileDlg.frx = FileDlg.frx
+		GotoDialog.frm = GotoDialog.frm
+		GotoDialog.frx = GotoDialog.frx
+		GPSSetup.frm = GPSSetup.frm
+		GPSSetup.frx = GPSSetup.frx
+		HCsmall.frm = HCsmall.frm
+		HCsmall.frx = HCsmall.frx
+		JStickConfig.frm = JStickConfig.frm
+		JStickConfig.frx = JStickConfig.frx
+		LimitEditForm.frm = LimitEditForm.frm
+		LimitEditForm.frx = LimitEditForm.frx
+		NStar_debug.frm = NStar_debug.frm
+		NStar_debug.frx = NStar_debug.frx
+		PECConfigFrm.frm = PECConfigFrm.frm
+		PECConfigFrm.frx = PECConfigFrm.frx
+		polarfrm.frm = polarfrm.frm
+		polarfrm.frx = polarfrm.frx
+		ProgressFrm.frm = ProgressFrm.frm
+		radec.frm = radec.frm
+		radec.frx = radec.frx
+		Setupfrm.frm = Setupfrm.frm
+		Setupfrm.frx = Setupfrm.frx
+		Slewpad.frm = Slewpad.frm
+		SoundsFrm.frm = SoundsFrm.frm
+		SoundsFrm.frx = SoundsFrm.frx
+		StarEditForm.frm = StarEditForm.frm
+		StarEditForm.frx = StarEditForm.frx
+		StarSim.frm = StarSim.frm
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7CFBE985-4918-40CA-BE55-26CF33F5C3F9}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion />
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{268508E6-D3E2-42FB-B8B8-DF6976190451}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>UpgradeSolution1Support</AssemblyName>
+    <RootNamespace>UpgradeSolution1Support</RootNamespace>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>True</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <Optimize>True</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <ProjectReference Include="..\..\UpgradeSupport\UpgradeHelpers.Utils.ReflectionHelper\UpgradeHelpers.Utils.ReflectionHelper.csproj">
+      <Project>{9AD53694-7256-4635-AEEA-92FF88652713}</Project>
+      <Name>UpgradeHelpers.Utils.ReflectionHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UpgradeSupport\UpgradeHelpers.Utils\UpgradeHelpers.Utils.csproj">
+      <Project>{1A91E8F9-BEFF-4B66-98DF-4BFEE15FA39F}</Project>
+      <Name>UpgradeHelpers.Utils</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UpgradeSupport\UpgradeHelpers.NotUpgradeHelper\UpgradeHelpers.NotUpgradeHelper.csproj">
+      <Project>{4D15E9B3-ECF3-4267-99A4-83C25FFD8EC4}</Project>
+      <Name>UpgradeHelpers.NotUpgradeHelper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\UpgradeSupport\UpgradeHelpers.FontHelper\UpgradeHelpers.FontHelper.csproj">
+      <Project>{71513051-C991-499F-806D-E5A9007A70CA}</Project>
+      <Name>UpgradeHelpers.FontHelper</Name>
+    </ProjectReference>
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="PInvoke\SafeMethods\eqcontrl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PInvoke\SafeMethods\kernel32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PInvoke\SafeMethods\user32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PInvoke\UnsafeMethods\eqcontrl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PInvoke\UnsafeMethods\kernel32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PInvoke\UnsafeMethods\Structures.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PInvoke\UnsafeMethods\user32.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="UpgradeStubs\UpgradeStubs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.Compatibility.Data" />
+    <Reference Include="MSDATASRC">
+      <Name>MSDATASRC</Name>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualBasic" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Target Name="BeforeBuild" />
+  <Target Name="AfterBuild" />
+</Project>

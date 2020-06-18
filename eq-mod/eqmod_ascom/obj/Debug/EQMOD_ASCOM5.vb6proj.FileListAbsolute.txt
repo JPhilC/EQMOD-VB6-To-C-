@@ -1,0 +1,2 @@
+E:\Projects\eq-mod\eq-mod\eqmod_ascom\bin\Debug\EQMOD_ASCOM5.exe
+E:\Projects\eq-mod\eq-mod\eqmod_ascom\obj\Debug\EQMOD_ASCOM5.vb6projResolveAssemblyReference.cache

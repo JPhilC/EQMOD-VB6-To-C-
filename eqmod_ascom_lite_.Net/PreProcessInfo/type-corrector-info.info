@@ -1,0 +1,1 @@
+[segment [list* "Project1.Telescope.PulseGuideRateRa" [segment "pendingToType" (&variant) "->" (&double)]] [list* "Project1.Telescope.PulseGuideRateDec" [segment "pendingToType" (&variant) "->" (&double)]]]

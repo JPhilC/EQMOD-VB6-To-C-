@@ -1,0 +1,1315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog>
+  <Settings>
+    <Setting Name="LogFile" Value="EQMOD_ASCOM5.log" />
+    <Setting Name="GenerateInterfacesForClasses" Value="FALSE" />
+    <Setting Name="ProjectName" Value="EQMOD_ASCOM5" />
+    <Setting Name="OutputName" Value="EQMOD_ASCOM5.csproj" />
+    <Setting Name="OutputDir" Value="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\" />
+    <Setting Name="ProjectPath" Value="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\EQMOD_ASCOM5.vbp" />
+    <Setting Name="MigrateProjectTo" Value="Library" />
+  </Settings>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\ASCOMV5\Rate.cls" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\ASCOMV5\Rate.cs" FileType="Class Module" Upgraded="True">
+    <Section Name="(Declarations)">
+      <Issue Type="Compile" Number="2068" Qty="1">IRate object was not upgraded.</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\ASCOMV5\Rates.cls" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\ASCOMV5\Rates.cs" FileType="Class Module" Upgraded="True">
+    <Section Name="(Declarations)">
+      <Issue Type="Compile" Number="2068" Qty="1">IAxisRates object was not upgraded.</Issue>
+    </Section>
+    <Section Name="NewEnum">
+      <Issue Type="Compile" Number="2068" Qty="3">VB.IUnknown object was not upgraded.</Issue>
+    </Section>
+    <Section Name="IAxisRates_Item">
+      <Issue Type="Compile" Number="2068" Qty="3">IRate object was not upgraded.</Issue>
+    </Section>
+    <Section Name="IAxisRates_NewEnum">
+      <Issue Type="Compile" Number="2068" Qty="2">stdole.IEnumVARIANT object was not upgraded.</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\ASCOMV5\Telescope.cls" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\ASCOMV5\Telescope.cs" FileType="Class Module" Upgraded="True">
+    <Section Name="(Declarations)">
+      <Issue Type="Compile" Number="2068" Qty="1">ITelescope object was not upgraded.</Issue>
+      <Issue Type="Compile" Number="2068" Qty="1">DriverHelper.Serial object was not upgraded.</Issue>
+      <Issue Type="Compile" Number="2068" Qty="1">DriverHelper.Util object was not upgraded.</Issue>
+      <Issue Type="Compile" Number="2068" Qty="1">DriverHelper.Profile object was not upgraded.</Issue>
+      <Issue Type="Compile" Number="2068" Qty="1">GuideDirections object was not upgraded.</Issue>
+    </Section>
+    <Section Name="Class_Initialize">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member DeviceType is not defined in type Profile.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Register is not defined in type Profile.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HCMessage is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member DisplayTimer is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Class_Terminate">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member DisplayTimer is not defined in type Variant.</Issue>
+      <Issue Type="Compile" Number="1040" ObjectName="Global" ObjectType="Void" PME="Unload" Qty="18">Unload function is not supported.</Issue>
+      <Issue Type="Compile" Number="2064" ObjectName="VB" ObjectType="VB" PME="Global" Qty="18">VB method VB.Global was not upgraded.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1069" Qty="1">Error handling statement (On Error Resume Next) was converted to a pattern that might have a different behavior.</Issue>
+    </Section>
+    <Section Name="AlignmentMode">
+      <Issue Type="Compile" Number="2068" Qty="3">AlignmentModes object was not upgraded.</Issue>
+    </Section>
+    <Section Name="AtHome">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="AtPark">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CanSetDeclinationRate">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CanSetGuideRates">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CanSetPierSide">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CanSetRightAscensionRate">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CanSlewAltAz">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CanSlewAltAzAsync">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CanSyncAltAz">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="DriverVersion">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="EquatorialSystem">
+      <Issue Type="Compile" Number="2068" Qty="8">EquatorialCoordinateType object was not upgraded.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="Runtime" Number="1068" Qty="1">EquatorialSystem of type EquatorialCoordinateType is being forced to string.</Issue>
+    </Section>
+    <Section Name="GuideRateDeclination">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollDecRate is not defined in type HC.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="5">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="5">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member DECGuideRateList is not defined in type HC.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="5">Member HScrollDecRate is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="5">Member DECGuideRateList is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="GuideRateRightAscension">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollRARate is not defined in type HC.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="5">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="5">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member RAGuideRateList is not defined in type HC.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="5">Member HScrollRARate is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="5">Member RAGuideRateList is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="InterfaceVersion">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="SideOfPier">
+      <Issue Type="Compile" Number="2068" Qty="9">PierSide object was not upgraded.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="Runtime" Number="1068" Qty="1">SideOfPier of type PierSide is being forced to string.</Issue>
+      <Issue Type="Runtime" Number="1068" Qty="1">newval of type PierSide is being forced to string.</Issue>
+    </Section>
+    <Section Name="TrackingRate">
+      <Issue Type="Compile" Number="2068" Qty="6">DriveRates object was not upgraded.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="Runtime" Number="1068" Qty="1">TrackingRate of type DriveRates is being forced to string.</Issue>
+      <Issue Type="Runtime" Number="1068" Qty="1">newval of type DriveRates is being forced to string.</Issue>
+    </Section>
+    <Section Name="TrackingRates">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="DoesRefraction">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="altitude">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="ApertureDiameter">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="ApertureArea">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Azimuth">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CanFindHome">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CanPark">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CanSetPark">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CanSetTracking">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CanSlew">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CanSlewAsync">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CanSync">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CanUnpark">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CanPulseGuide">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Connected">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Show is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="10">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="6">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member TrackingFrame is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member EncoderTimer is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member EncoderTimerFlag is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Pulseguide_Timer is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Frame15 is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Declination">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="DeclinationRate">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member TrackingFrame is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Description">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="DriverInfo">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="FocalLength">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="name">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="RightAscension">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="RightAscensionRate">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member TrackingFrame is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="SiderealTime">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="SiteElevation">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="SiteLatitude">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="SiteLongitude">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Slewing">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="SlewSettleTime">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="TargetDeclination">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="TargetRightAscension">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Tracking">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="4">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member TrackingFrame is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="UTCDate">
+      <Issue Type="Runtime" Number="1068" Qty="1">utc_offs() of type Variant is being forced to double.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PecGain">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GainScroll is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="IsPulseGuiding">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="ITelescope_AlignmentMode">
+      <Issue Type="Compile" Number="2068" Qty="2">AlignmentModes object was not upgraded.</Issue>
+    </Section>
+    <Section Name="ITelescope_EquatorialSystem">
+      <Issue Type="Compile" Number="2068" Qty="2">EquatorialCoordinateType object was not upgraded.</Issue>
+    </Section>
+    <Section Name="ITelescope_SideOfPier">
+      <Issue Type="Compile" Number="2068" Qty="2">PierSide object was not upgraded.</Issue>
+      <Issue Type="Runtime" Number="1068" Qty="1">SideOfPier of type PierSide is being forced to Scalar.</Issue>
+    </Section>
+    <Section Name="ITelescope_TrackingRate">
+      <Issue Type="Compile" Number="2068" Qty="2">DriveRates object was not upgraded.</Issue>
+      <Issue Type="Runtime" Number="1068" Qty="1">TrackingRate of type DriveRates is being forced to Scalar.</Issue>
+    </Section>
+    <Section Name="ITelescope_TrackingRates">
+      <Issue Type="Compile" Number="2068" Qty="3">ITrackingRates object was not upgraded.</Issue>
+    </Section>
+    <Section Name="AxisRates">
+      <Issue Type="Compile" Number="2068" Qty="2">TelescopeAxes object was not upgraded.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="Runtime" Number="1068" Qty="1">axis of type TelescopeAxes is being forced to string.</Issue>
+    </Section>
+    <Section Name="CanMoveAxis">
+      <Issue Type="Compile" Number="2068" Qty="4">TelescopeAxes object was not upgraded.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="Runtime" Number="1068" Qty="3">axis of type TelescopeAxes is being forced to string.</Issue>
+    </Section>
+    <Section Name="DestinationSideOfPier">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="MoveAxis">
+      <Issue Type="Compile" Number="2068" Qty="2">TelescopeAxes object was not upgraded.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="Runtime" Number="1068" Qty="1">axis of type TelescopeAxes is being forced to string.</Issue>
+    </Section>
+    <Section Name="SlewToAltAz">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="SlewToAltAzAsync">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="SyncToAltAz">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PecMoveAxis">
+      <Issue Type="Compile" Number="2068" Qty="1">TelescopeAxes object was not upgraded.</Issue>
+    </Section>
+    <Section Name="AbortSlew">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CommandBlind">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CommandBool">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CommandString">
+      <Issue Type="ToDo" Number="1067" ObjectName="Strings" ObjectType="String" PME="FormatNumber" Qty="1">Member GainScroll is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" ObjectName="Strings" ObjectType="String" PME="FormatNumber" Qty="1">Member PhaseScroll is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member CheckPEC is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member ApplyParkMode is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member ApplyUnParkMode is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" ObjectName="Strings" ObjectType="String" PME="Right$" Qty="1">Member RAGuideRateList is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" ObjectName="Strings" ObjectType="String" PME="Right$" Qty="1">Member DECGuideRateList is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" ObjectName="Strings" ObjectType="String" PME="Right$" Qty="1">Member Label14 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="9">Member HScrollRARate is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" ObjectName="Strings" ObjectType="String" PME="Right$" Qty="1">Member Label15 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="9">Member HScrollDecRate is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member rapulse_enchk is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member decpulse_enchk is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member DriftScroll is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member ListSyncMode is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member ResetAlign is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member ChkForceFlip is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="4">Member Check1 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1065" Qty="1">Error handling statement (On Error Goto) could not be converted.</Issue>
+    </Section>
+    <Section Name="FindHome">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Park">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PulseGuide">
+      <Issue Type="Compile" Number="2068" Qty="4">GuideDirections object was not upgraded.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="Runtime" Number="1068" Qty="1">direction of type GuideDirections is being forced to string.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Pulseguide_Timer is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member decpulse_enchk is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member decfixed_enchk is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollDECWidth is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollDecOride is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member rapulse_enchk is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member rafixed_enchk is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollRAWidth is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollRAOride is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="9">Member HScrollDecRate is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" ObjectName="Conversion" ObjectType="Double" PME="val" Qty="1">Member HScrollRARate is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="9">Member HScrollRARate is not defined in type Variant.</Issue>
+      <Issue Type="Runtime" Number="1068" Qty="2">LastGuideNS of type GuideDirections is being forced to Scalar.</Issue>
+      <Issue Type="Runtime" Number="1068" Qty="1">guideNorth of type Variant is being forced to GuideDirections.</Issue>
+      <Issue Type="Runtime" Number="1068" Qty="1">guideSouth of type Variant is being forced to GuideDirections.</Issue>
+    </Section>
+    <Section Name="SetPark">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="SetupDialog">
+      <Issue Type="Compile" Number="1040" ObjectName="Global" ObjectType="Void" PME="Unload" Qty="1">Unload function is not supported.</Issue>
+      <Issue Type="Compile" Number="2064" ObjectName="VB" ObjectType="VB" PME="Global" Qty="1">VB method VB.Global was not upgraded.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Show is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="SlewToCoordinates">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Visible is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member FillAlignmentStar is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="SlewToCoordinatesAsync">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Visible is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member FillAlignmentStar is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="SlewToTarget">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Visible is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member FillAlignmentStar is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="SlewToTargetAsync">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Visible is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member FillAlignmentStar is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="SyncToCoordinates">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="SyncToTarget">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="UnPark">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="ReadComPortSettings">
+      <Issue Type="ToDo" Number="1067" Qty="4">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="ReadSyncMap">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member DxSalbl is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member DxSblbl is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="ReadAlignMap">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="RaiseError">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member AscomTraceEnabled is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_log is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="ITelescope_AxisRates">
+      <Issue Type="Compile" Number="2068" Qty="1">TelescopeAxes object was not upgraded.</Issue>
+      <Issue Type="Compile" Number="2068" Qty="2">IAxisRates object was not upgraded.</Issue>
+    </Section>
+    <Section Name="ITelescope_CanMoveAxis">
+      <Issue Type="Compile" Number="2068" Qty="1">TelescopeAxes object was not upgraded.</Issue>
+    </Section>
+    <Section Name="ITelescope_DestinationSideOfPier">
+      <Issue Type="Compile" Number="2068" Qty="2">PierSide object was not upgraded.</Issue>
+    </Section>
+    <Section Name="ITelescope_MoveAxis">
+      <Issue Type="Compile" Number="2068" Qty="1">TelescopeAxes object was not upgraded.</Issue>
+    </Section>
+    <Section Name="ITelescope_PulseGuide">
+      <Issue Type="Compile" Number="2068" Qty="1">GuideDirections object was not upgraded.</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\ASCOMV5\TrackingRates.cls" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\ASCOMV5\TrackingRates.cs" FileType="Class Module" Upgraded="True">
+    <Section Name="(Declarations)">
+      <Issue Type="Compile" Number="2068" Qty="1">ITrackingRates object was not upgraded.</Issue>
+    </Section>
+    <Section Name="Item">
+      <Issue Type="Compile" Number="2068" Qty="3">DriveRates object was not upgraded.</Issue>
+    </Section>
+    <Section Name="NewEnum">
+      <Issue Type="Compile" Number="2068" Qty="3">stdole.IEnumVARIANT object was not upgraded.</Issue>
+    </Section>
+    <Section Name="ITrackingRates_Item">
+      <Issue Type="Compile" Number="2068" Qty="3">DriveRates object was not upgraded.</Issue>
+    </Section>
+    <Section Name="ITrackingRates_NewEnum">
+      <Issue Type="Compile" Number="2068" Qty="2">stdole.IEnumVARIANT object was not upgraded.</Issue>
+    </Section>
+    <Section Name="Add">
+      <Issue Type="Compile" Number="2068" Qty="2">DriveRates object was not upgraded.</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\eqmodnmea.cls" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\eqmodnmea.cs" FileType="Class Module" Upgraded="True" />
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Persist.cls" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\Persist.cs" FileType="Class Module" Upgraded="True">
+    <Section Name="Class_Initialize">
+      <Issue Type="ToDo" Number="1069" Qty="1">Error handling statement (On Error Resume Next) was converted to a pattern that might have a different behavior.</Issue>
+    </Section>
+    <Section Name="DeleteSection">
+      <Issue Type="ToDo" Number="1069" Qty="1">Error handling statement (On Error Resume Next) was converted to a pattern that might have a different behavior.</Issue>
+      <Issue Type="ToDo" Number="1065" Qty="1">Error handling statement (On Error Goto) could not be converted.</Issue>
+    </Section>
+    <Section Name="ReadIniValueEx">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetValue is not defined in type Profile.</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\HC.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\HC.cs" FileType="Module" Upgraded="True">
+    <Section Name="(Declarations)">
+      <Issue Type="Compile" Number="2068" Qty="1">DriverHelper.Util object was not upgraded.</Issue>
+    </Section>
+    <Section Name="EncoderTimer_Timer">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member CheckRASync is not defined in type HC.</Issue>
+      <Issue Type="Runtime" Number="1068" Qty="2">tmpRa of type Variant is being forced to double.</Issue>
+      <Issue Type="Runtime" Number="1068" Qty="1">tmpRa of type Variant is being forced to string.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="4">Member Picture is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Caption is not defined in type Variant.</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Alignment.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\Alignment.cs" FileType="Module" Upgraded="True">
+    <Section Name="(Parsing)">
+      <Issue Type="Compile" Number="4005" Qty="1">Alignment is a Visual Basic 5.0 file.  For best results, upgrade the Module to Visual Basic 6.0 before upgrading it to .NET</Issue>
+    </Section>
+    <Section Name="EQ_NPointAppend">
+      <Issue Type="ToDo" Number="1067" Qty="7">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member EncoderTimer is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member RefreshDisplay is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="ActivateMatrix">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member EncoderTimer is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PolarEnable is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="SaveAlignmentStars">
+      <Issue Type="ToDo" Number="1067" Qty="6">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="LoadAlignmentPreset">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1069" Qty="1">Error handling statement (On Error Resume Next) was converted to a pattern that might have a different behavior.</Issue>
+      <Issue Type="ToDo" Number="1065" Qty="1">Error handling statement (On Error Goto) could not be converted.</Issue>
+    </Section>
+    <Section Name="SavePresetIdx">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="GetPresetIdx">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="ReadParkOptions">
+      <Issue Type="ToDo" Number="1067" Qty="7">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="WriteParkOptions">
+      <Issue Type="ToDo" Number="1067" Qty="4">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Common.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\Common.cs" FileType="Module" Upgraded="True">
+    <Section Name="(Parsing)">
+      <Issue Type="Compile" Number="4005" Qty="1">Common is a Visual Basic 5.0 file.  For best results, upgrade the Module to Visual Basic 6.0 before upgrading it to .NET</Issue>
+    </Section>
+    <Section Name="(Declarations)">
+      <Issue Type="Compile" Number="2068" Qty="1">DriverHelper.Profile object was not upgraded.</Issue>
+    </Section>
+    <Section Name="GetMenuItemInfo">
+      <Issue Type="ToDo" Number="1050" Qty="1">Structure MENUITEMINFO may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+    </Section>
+    <Section Name="SetMenuItemInfo">
+      <Issue Type="ToDo" Number="1050" Qty="1">Structure MENUITEMINFO may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+    </Section>
+    <Section Name="EnableCloseButton">
+      <Issue Type="Runtime" Number="2081" ObjectName="Strings" ObjectType="Long" PME="Len" Qty="1">Len has a new behavior.</Issue>
+    </Section>
+    <Section Name="Main">
+      <Issue Type="Compile" Number="2068" Qty="1">DriveRates object was not upgraded.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member DeviceType is not defined in type Profile.</Issue>
+      <Issue Type="Compile" Number="2064" ObjectName="App" ObjectType="App" PME="StartMode" Qty="1">App property App.StartMode was not upgraded.</Issue>
+      <Issue Type="Compile" Number="2070" ObjectName="Global" ObjectType="App" PME="App" Qty="1">Constant App was not upgraded.</Issue>
+      <Issue Type="Compile" Number="2070" ObjectName="ApplicationStartConstants" ObjectType="ApplicationStartConstants" PME="vbSModeStandalone" Qty="1">Constant vbSModeStandalone was not upgraded.</Issue>
+    </Section>
+    <Section Name="SyncToRADEC">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member ListSyncMode is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member EncoderTimer is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="5">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member DxSalbl is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member DxSblbl is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readlastpos">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writelastpos">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="WriteSyncMap">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="WriteAlignMap">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readPolarHomeGoto">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writePolarHomeGoto">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="resetsync">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member DxSalbl is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member DxSblbl is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writeratebarstateHC">
+      <Issue Type="ToDo" Number="1067" Qty="6">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member VScrollRASlewRate is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member VScrollDecSlewRate is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollRARate is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollDecRate is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollRAOride is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollDecOride is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readratebarstateHC">
+      <Issue Type="ToDo" Number="1067" Qty="6">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member VScrollRASlewRate is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member VScrollDecSlewRate is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollRARate is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollDecRate is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollRAOride is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollDecOride is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writeratebarstateAlign">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScroll1 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScroll2 is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readratebarstateAlign">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScroll1 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScroll2 is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writeratebarstatePad">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member VScroll1 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member VScroll2 is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writeOnTop">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HCOnTop is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readOnTop">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HCOnTop is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writeAlignCheck1">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writeAlignCheck2">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member ListSyncMode is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member CommandAddPoint is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readAlignCheck">
+      <Issue Type="ToDo" Number="1067" Qty="9">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="4">Member ListAlignMode is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member ListSyncMode is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member HScrollProximity is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member ComboActivePoints is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member CheckLocalPier is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writeAlignProximity">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollProximity is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readAlignProximity">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member HScrollProximity is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writeColorDat">
+      <Issue Type="ToDo" Number="1067" Qty="7">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readColorDat">
+      <Issue Type="ToDo" Number="1067" Qty="7">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member HCMessage is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readratebarstatePad">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member VScroll1 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member VScroll2 is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readportrate">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="5">Member RAGuideRateList is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="5">Member DECGuideRateList is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writeportrateRa">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writeportrateDec">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writePulseguidepwidth">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PltimerHscroll is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readPulseguidepwidth">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="6">Member PltimerHscroll is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Label40 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Pulseguide_Timer is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollBacklashDec is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member LabelBacklashDec is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writeRASyncCheckVal">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member CheckRASync is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readRASyncCheckVal">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member CheckRASync is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writeDriftVal">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readDriftVal">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member DriftScroll is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Driftlbl is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writeAxisRevRA">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member RA_inv is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writeAxisRevDEC">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member DEC_Inv is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readDevelopmentOptions">
+      <Issue Type="ToDo" Number="1067" Qty="16">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member Combo3PointAlgorithm is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member CheckRASync is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Label35 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member CheckLocalPier is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member FrameAdvanced is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member FramePGAvanced is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member LabelSlewLimit is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Label31 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member HScrollSlewLimit is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member puPolar is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollSlewRetries is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollGotoRes is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollSlewAdjust is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readAscomCompatibiity">
+      <Issue Type="ToDo" Number="1067" Qty="22">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Frame5 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Frame6 is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="WriteAscomCompatibiity">
+      <Issue Type="ToDo" Number="1067" Qty="11">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readAutoFlipData">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="WriteAutoFlipData">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readAxisRev">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member RA_inv is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member DEC_Inv is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writePresetSlewRates">
+      <Issue Type="ToDo" Number="1067" Qty="4">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readPresetSlewRates">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member PresetRateCombo is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member PresetRate2Combo is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="11">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readPoleStar">
+      <Issue Type="ToDo" Number="1067" Qty="7">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member ComboPoleStar is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writePoleStar">
+      <Issue Type="ToDo" Number="1067" Qty="5">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readExtendedMountFunctions">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Label5 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="4">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member HScrollPolarLed is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Combo1 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1069" Qty="1">Error handling statement (On Error Resume Next) was converted to a pattern that might have a different behavior.</Issue>
+    </Section>
+    <Section Name="ShowExtendedMountFunctions">
+      <Issue Type="ToDo" Number="1067" Qty="7">Member Label5 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member HScrollPolarLed is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="4">Member Command1 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Combo1 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="8">Member Check1 is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="ReadFormPosition">
+      <Issue Type="ToDo" Number="1067" Qty="6">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="4">Member Height is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Top is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Left is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member width is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="WriteFormPosition">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Height is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Top is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Left is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="ResetFormPosition">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Left is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Top is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Height is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="ByteArrayToString">
+      <Issue Type="Runtime" Number="1059" ObjectName="Strings" ObjectType="String" PME="StrConv" Qty="1">Code was upgraded to use UpgradeHelpers.Helpers.StringsHelper.ByteArrayToString() which may not have the same behavior.</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Definitions.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\Definitions.cs" FileType="Module" Upgraded="True" />
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\eqcontrl.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\eqcontrl.cs" FileType="Module" Upgraded="True" />
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\EQMath.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\EQMath.cs" FileType="Module" Upgraded="True">
+    <Section Name="(Parsing)">
+      <Issue Type="Compile" Number="4005" Qty="1">EQMath is a Visual Basic 5.0 file.  For best results, upgrade the Module to Visual Basic 6.0 before upgrading it to .NET</Issue>
+    </Section>
+    <Section Name="GetSystemTime">
+      <Issue Type="ToDo" Number="1050" Qty="1">Structure SYSTEMTIME may require marshalling attributes to be passed as an argument in this Declare statement.</Issue>
+    </Section>
+    <Section Name="EQnow_lst">
+      <Issue Type="Runtime" Number="1068" Qty="1">mjd_day() of type Variant is being forced to int.</Issue>
+      <Issue Type="Runtime" Number="1068" Qty="1">mjd_hr() of type Variant is being forced to int.</Issue>
+    </Section>
+    <Section Name="EQnow_lst_time">
+      <Issue Type="Runtime" Number="1068" Qty="1">mjd_day() of type Variant is being forced to int.</Issue>
+      <Issue Type="Runtime" Number="1068" Qty="1">mjd_hr() of type Variant is being forced to int.</Issue>
+    </Section>
+    <Section Name="GetNearest">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member CheckLocalPier is not defined in type Variant.</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\eqmodvector.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\eqmodvector.cs" FileType="Module" Upgraded="True">
+    <Section Name="EQ_sp2Cs">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PolarEnable is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="EQ_sp2Cs2">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PolarEnable is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="EQ_pl2Cs">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PolarEnable is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="EQ_plAffine">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PolarEnable is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="EQ_plAffine2">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PolarEnable is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="EQ_plTaki">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PolarEnable is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="EQ_Choose_3Points">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member CheckLocalPier is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="EQ_ChooseNearest3Points">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member CheckLocalPier is not defined in type Variant.</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\ErrorConstants.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\ErrorConstants.cs" FileType="Module" Upgraded="True" />
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Goto.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\Goto.cs" FileType="Module" Upgraded="True">
+    <Section Name="(Parsing)">
+      <Issue Type="Compile" Number="4005" Qty="1">Goto is a Visual Basic 5.0 file.  For best results, upgrade the Module to Visual Basic 6.0 before upgrading it to .NET</Issue>
+    </Section>
+    <Section Name="radecAsyncSlew">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member EncoderTimer is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CalcEncoderTargets">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member ChkEnableLimits is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="ManageGoto">
+      <Issue Type="ToDo" Number="1067" Qty="5">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member ChkForceFlip is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writeGotoRate">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readGotoRate">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member HScrollSlewLimit is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member rate is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1069" Qty="1">Error handling statement (On Error Resume Next) was converted to a pattern that might have a different behavior.</Issue>
+    </Section>
+    <Section Name="readFlipGoto">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1069" Qty="1">Error handling statement (On Error Resume Next) was converted to a pattern that might have a different behavior.</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Limits.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\Limits.cs" FileType="Module" Upgraded="True">
+    <Section Name="Limits_Init">
+      <Issue Type="ToDo" Number="1067" Qty="8">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member ChkEnableLimits is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Limits_Load">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member filter is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Show is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member FileName is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Limits_ReadFile">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Limits_Save">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member filter is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Show is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member FileName is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Limits_Add">
+      <Issue Type="ToDo" Number="1065" Qty="1">Error handling statement (On Error Goto) could not be converted.</Issue>
+    </Section>
+    <Section Name="Limits_Execute">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member ChkEnableLimits is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member ApplyParkMode is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Limits_Detect">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Limits_GetAltLimit">
+      <Issue Type="ToDo" Number="1065" Qty="1">Error handling statement (On Error Goto) could not be converted.</Issue>
+    </Section>
+    <Section Name="Limits_Clear">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Limits_edit">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Show is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writeRAlimit">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readRALimit">
+      <Issue Type="ToDo" Number="1067" Qty="4">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="OutOfBounds">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member ChkEnableLimits is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="RALimitsActive">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member ChkEnableLimits is not defined in type Variant.</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Monitor.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\Monitor.cs" FileType="Module" Upgraded="True">
+    <Section Name="ToggleMonitorPower">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member hwnd is not defined in type Variant.</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Mount.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\Mount.cs" FileType="Module" Upgraded="True">
+    <Section Name="readCustomMount">
+      <Issue Type="ToDo" Number="1067" Qty="15">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1069" Qty="1">Error handling statement (On Error Resume Next) was converted to a pattern that might have a different behavior.</Issue>
+    </Section>
+    <Section Name="writeCustomMount">
+      <Issue Type="ToDo" Number="1067" Qty="7">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readMountType2">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readWormSteps">
+      <Issue Type="ToDo" Number="1067" Qty="4">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Nstar_Polar.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\Nstar_Polar.cs" FileType="Module" Upgraded="True">
+    <Section Name="(Parsing)">
+      <Issue Type="Compile" Number="4005" Qty="1">Nstar_Polar is a Visual Basic 5.0 file.  For best results, upgrade the Module to Visual Basic 6.0 before upgrading it to .NET</Issue>
+    </Section>
+    <Section Name="EQGet_Polar_Offset">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member polarplot is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PolarAlign_init">
+      <Issue Type="ToDo" Number="1067" Qty="6">Member polarplot is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Plot_PolarAlign">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member polarplot is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="NStar_Polar_plot_init">
+      <Issue Type="ToDo" Number="1067" Qty="4">Member polarplot is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="pxlate_x">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member polarplot is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="pxlate_y">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member polarplot is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="NStar_Polar_plot">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScroll4 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="19">Member polarplot is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PolarAlignDrift_Map">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member EncoderTimer is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Position_polar">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScroll4 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScroll2 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScroll3 is not defined in type Variant.</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\PEC.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\PEC.cs" FileType="Module" Upgraded="True">
+    <Section Name="PEC_LoPassScroll_Change">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScroll1 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Label3 is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_MagScroll_Change">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScroll2 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Label2 is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_PhaseScroll_Change">
+      <Issue Type="ToDo" Number="1067" ObjectName="Conversion" ObjectType="Double" PME="Int" Qty="1">Member PhaseScroll is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Label45 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member PhaseScroll is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PECMode_click">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_Initialise">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member CmdPecSave is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GainScroll is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member PhaseScroll is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member plot is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PlotCap is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_Timestamp">
+      <Issue Type="ToDo" Number="1067" Qty="5">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_StartTracking">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member PECTimer is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member TrackingFrame is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1069" Qty="1">Error handling statement (On Error Resume Next) was converted to a pattern that might have a different behavior.</Issue>
+    </Section>
+    <Section Name="PEC_StopTracking">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_GainScroll_Change">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member GainScroll is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Label43 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1069" Qty="1">Error handling statement (On Error Resume Next) was converted to a pattern that might have a different behavior.</Issue>
+    </Section>
+    <Section Name="PEC_OnUse">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member CheckPEC is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="4">Member CmdTrack is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member CommandPecPlay is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_SetGain">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member GainScroll is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_SetPhase">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member PhaseScroll is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_Load">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member filter is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Show is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member FileName is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_LoadFile">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Change_Display is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_Save">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member filter is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Show is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member FileName is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member PhaseScroll is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_Timer">
+      <Issue Type="ToDo" Number="1067" Qty="7">Member plot is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PECTimer is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1069" Qty="1">Error handling statement (On Error Resume Next) was converted to a pattern that might have a different behavior.</Issue>
+    </Section>
+    <Section Name="PEC_CaptureTimer">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member ComboPecCap is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="13">Member PlotCap is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member PECCapTimer is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member CheckCapPec is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1069" Qty="1">Error handling statement (On Error Resume Next) was converted to a pattern that might have a different behavior.</Issue>
+    </Section>
+    <Section Name="PEC_UpdateControls">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member GainScroll is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PhaseScroll is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_ReadParams">
+      <Issue Type="ToDo" Number="1067" Qty="30">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member CheckTracePec is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member PECMethodCombo is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_WriteParams">
+      <Issue Type="ToDo" Number="1067" Qty="11">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PhaseScroll is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Import">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="Runtime" Number="2081" ObjectName="Information.Err" ObjectType="ErrObject" PME="Number" Qty="1">Err.Number has a new behavior.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PECTimer is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member CmdPecSave is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GainScroll is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PhaseScroll is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member CheckPEC is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member CmdTrack is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Frame9 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1065" Qty="1">Error handling statement (On Error Goto) could not be converted.</Issue>
+    </Section>
+    <Section Name="KillPec">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Frame9 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member CmdTrack is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PECTimer is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member CmdPecSave is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GainScroll is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PhaseScroll is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member CheckPEC is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member plot is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Export">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member MainLabel is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_Write_Table">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_PlotCurve">
+      <Issue Type="ToDo" Number="1067" Qty="7">Member plot is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CalcRates">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="Runtime" Number="2081" ObjectName="Information.Err" ObjectType="ErrObject" PME="Number" Qty="1">Err.Number has a new behavior.</Issue>
+      <Issue Type="ToDo" Number="1065" Qty="2">Error handling statement (On Error Goto) could not be converted.</Issue>
+    </Section>
+    <Section Name="PEC_MoveAxis">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member TrackingFrame is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_StartCapture">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PECCapTimer is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member CheckCapPec is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_StopCapture">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PECCapTimer is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="SaveCaptureData">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member MainLabel is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollRARate is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member RAGuideRateList is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GainScroll is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member PhaseScroll is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_RegressAndSmooth">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member MainLabel is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member HScrollRARate is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member RAGuideRateList is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="PEC_DispalyUpdate">
+      <Issue Type="Compile" Number="2064" ObjectName="plot" ObjectType="PictureBox" PME="Cls" Qty="1">PictureBox method plot.Cls was not upgraded.</Issue>
+      <Issue Type="Compile" Number="2064" ObjectName="plot" ObjectType="PictureBox" PME="Print" Qty="3">PictureBox method plot.Print was not upgraded.</Issue>
+      <Issue Type="ToDo" Number="1067" ObjectName="plot" ObjectType="PictureBox" PME="Print" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Tracking.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\Upgraded\Tracking.cs" FileType="Module" Upgraded="True">
+    <Section Name="StartRA_by_Rate">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_FileMessage is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="ChangeRA_by_Rate">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member Add_FileMessage is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="StartDEC_by_Rate">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_FileMessage is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="ChangeDEC_by_Rate">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member Add_FileMessage is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="EQMoveAxis">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member TrackingFrame is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="CustomMoveAxis">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member TrackingFrame is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Start_CustomTracking2">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Start_CustomTracking">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member raCustom is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member decCustom is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member CustomTrackTimer is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Restore_CustomTracking">
+      <Issue Type="ToDo" Number="1067" Qty="4">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member raCustom is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member decCustom is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="EQStartSidereal2">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="EQStartSidereal">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member GetLangString is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member CheckPEC is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member TrackingFrame is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="writeCustomRa">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member raCustom is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member decCustom is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member LabelTrackFile is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readCustomRa">
+      <Issue Type="ToDo" Number="1067" Qty="3">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member raCustom is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member decCustom is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="6">Member LabelTrackFile is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="4">Member CmdTrack is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="readSiderealRate">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1065" Qty="1">Error handling statement (On Error Goto) could not be converted.</Issue>
+    </Section>
+    <Section Name="writeSiderealRate">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="LoadTrackingRates">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member filter is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member lastdir is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member notfirst is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Show is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="4">Member FileName is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member filename2 is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="4">Member LabelTrackFile is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="5">Member CmdTrack is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="Track_LoadFile">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member oPersist is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="3">Member Add_Message is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="TrackTimer">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member raCustom is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member decCustom is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="GetTrackFileIdx">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member CmdTrack is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="GetPosnIdx">
+      <Issue Type="ToDo" Number="1067" Qty="1">Member CmdTrack is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="1">Member Add_Message is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="goto_TrackTarget">
+      <Issue Type="ToDo" Number="1067" Qty="2">Member Add_Message is not defined in type Variant.</Issue>
+      <Issue Type="ToDo" Number="1067" Qty="2">Member GetLangString is not defined in type Variant.</Issue>
+    </Section>
+    <Section Name="SystemParametersInfo">
+      <Issue Type="Runtime" Number="8007" Qty="1">Trying to marshal a non Bittable Type (bool). A special conversion might be required at this point. Moreover use 'External Marshalling attributes for Structs' feature enabled if required</Issue>
+    </Section>
+  </File>
+</UpgradeLog>
+

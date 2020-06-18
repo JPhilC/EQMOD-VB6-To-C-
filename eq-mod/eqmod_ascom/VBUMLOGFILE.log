@@ -1,0 +1,377 @@
+VBUC FullVersion  : 8.2.50519.0
+
+[06/10/2020 17:09:38:277] New Log Entry
+
+
+[06/10/2020 17:09:38:281] *******************************************************
+[06/10/2020 17:09:38:281] Start: 10/06/2020 17:09:38
+[06/10/2020 17:09:38:281] Finding vb projects...
+[06/10/2020 17:09:38:287] loading: C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eq-mod\eq-mod\eqmod_ascom\EQMOD_ASCOM5.vbp
+[06/10/2020 17:09:38:287]    inspecting project file...
+[06/10/2020 17:09:38:297]    inspecting source code files...
+[06/10/2020 17:09:38:699] loading: C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eq-mod\eq-mod\eqmod_ascom\EQMOD_SIM_ASCOM5.vbp
+[06/10/2020 17:09:38:700]    inspecting project file...
+[06/10/2020 17:09:38:709]    inspecting source code files...
+[06/10/2020 17:09:39:144] loading: C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eq-mod\eq-mod\eqmod_ascom\Dutch\EQMODnl.vbp
+[06/10/2020 17:09:39:144]    inspecting project file...
+[06/10/2020 17:09:39:144]    inspecting source code files...
+[06/10/2020 17:09:39:151] loading: C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eq-mod\eq-mod\eqmod_ascom\EQASCOM_Run\eqascom_run.vbp
+[06/10/2020 17:09:39:151]    inspecting project file...
+[06/10/2020 17:09:39:152]    inspecting source code files...
+[06/10/2020 17:09:39:158] loading: C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eq-mod\eq-mod\eqmod_ascom\EQMOD_Toolbox\Project1.vbp
+[06/10/2020 17:09:39:158]    inspecting project file...
+[06/10/2020 17:09:39:160]    inspecting source code files...
+[06/10/2020 17:09:39:166] loading: C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eq-mod\eq-mod\eqmod_ascom\French\EQMODfr.vbp
+[06/10/2020 17:09:39:166]    inspecting project file...
+[06/10/2020 17:09:39:167]    inspecting source code files...
+[06/10/2020 17:09:39:173] loading: C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eq-mod\eq-mod\eqmod_ascom\gpmonitor\Project1.vbp
+[06/10/2020 17:09:39:174]    inspecting project file...
+[06/10/2020 17:09:39:174]    inspecting source code files...
+[06/10/2020 17:09:39:181] loading: C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eq-mod\eq-mod\eqmod_ascom\Italian\EQMODit.vbp
+[06/10/2020 17:09:39:181]    inspecting project file...
+[06/10/2020 17:09:39:182]    inspecting source code files...
+[06/10/2020 17:09:39:189] loading: C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eq-mod\eq-mod\eqmod_ascom\romanian\EQMODro.vbp
+[06/10/2020 17:09:39:189]    inspecting project file...
+[06/10/2020 17:09:39:190]    inspecting source code files...
+[06/10/2020 17:09:39:197] loading: C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eq-mod\eq-mod\eqmod_ascom\Spanish\EQMODes.vbp
+[06/10/2020 17:09:39:197]    inspecting project file...
+[06/10/2020 17:09:39:197]    inspecting source code files...
+[06/10/2020 17:09:39:209] Finding asp projects...
+[06/10/2020 17:09:39:220] resolving project references...
+[06/10/2020 17:09:39:220] Creating Internal References...
+[06/10/2020 17:09:39:250] Resolving project references...
+[06/10/2020 17:09:39:254] Resolving project references finished OK...
+[06/10/2020 17:09:39:341] End: 10/06/2020 17:09:39
+[06/10/2020 17:09:39:341] Total load manager time: 00:00:01.0601993
+
+[06/10/2020 17:09:39:341] LoadUpgradeOptionsList Started
+[06/10/2020 17:09:39:343] !!!!!!!!! Unexpected exception while loading upgrade options: This type of CollectionView does not support changes to its SourceCollection from a thread different from the Dispatcher thread.
+[06/10/2020 17:09:39:343] LoadUpgradeOptionsList Finished
+[06/10/2020 17:09:39:343] UpdateWarnings Started
+[06/10/2020 17:09:39:369]   Updating warnings of EQMOD_ASCOM5.vbp
+[06/10/2020 17:09:39:370]     AddMissingProjectWarnings 
+[06/10/2020 17:09:39:370]     AddBinaryFileWarnings 
+[06/10/2020 17:09:39:370]     AddReferenceWarnings 
+[06/10/2020 17:09:39:371]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:09:39:371]     CheckVersionNumberConsistency 
+[06/10/2020 17:09:39:371]     CheckForMissingSourceFiles 
+[06/10/2020 17:09:39:376]   Updating warnings of EQMOD_SIM_ASCOM5.vbp
+[06/10/2020 17:09:39:377]     AddMissingProjectWarnings 
+[06/10/2020 17:09:39:377]     AddBinaryFileWarnings 
+[06/10/2020 17:09:39:377]     AddReferenceWarnings 
+[06/10/2020 17:09:39:378]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:09:39:378]     CheckVersionNumberConsistency 
+[06/10/2020 17:09:39:378]     CheckForMissingSourceFiles 
+[06/10/2020 17:09:39:384]   Updating warnings of Dutch\EQMODnl.vbp
+[06/10/2020 17:09:39:384]     AddMissingProjectWarnings 
+[06/10/2020 17:09:39:385]     AddBinaryFileWarnings 
+[06/10/2020 17:09:39:385]     AddReferenceWarnings 
+[06/10/2020 17:09:39:385]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:09:39:385]     CheckVersionNumberConsistency 
+[06/10/2020 17:09:39:385]     CheckForMissingSourceFiles 
+[06/10/2020 17:09:39:385]   Updating warnings of EQASCOM_Run\eqascom_run.vbp
+[06/10/2020 17:09:39:385]     AddMissingProjectWarnings 
+[06/10/2020 17:09:39:386]     AddBinaryFileWarnings 
+[06/10/2020 17:09:39:386]     AddReferenceWarnings 
+[06/10/2020 17:09:39:386]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:09:39:386]     CheckVersionNumberConsistency 
+[06/10/2020 17:09:39:387]     CheckForMissingSourceFiles 
+[06/10/2020 17:09:39:387]   Updating warnings of EQMOD_Toolbox\Project1.vbp
+[06/10/2020 17:09:39:387]     AddMissingProjectWarnings 
+[06/10/2020 17:09:39:387]     AddBinaryFileWarnings 
+[06/10/2020 17:09:39:387]     AddReferenceWarnings 
+[06/10/2020 17:09:39:388]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:09:39:388]     CheckVersionNumberConsistency 
+[06/10/2020 17:09:39:388]     CheckForMissingSourceFiles 
+[06/10/2020 17:09:39:388]   Updating warnings of French\EQMODfr.vbp
+[06/10/2020 17:09:39:388]     AddMissingProjectWarnings 
+[06/10/2020 17:09:39:389]     AddBinaryFileWarnings 
+[06/10/2020 17:09:39:389]     AddReferenceWarnings 
+[06/10/2020 17:09:39:389]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:09:39:389]     CheckVersionNumberConsistency 
+[06/10/2020 17:09:39:389]     CheckForMissingSourceFiles 
+[06/10/2020 17:09:39:389]   Updating warnings of gpmonitor\Project1.vbp
+[06/10/2020 17:09:39:390]     AddMissingProjectWarnings 
+[06/10/2020 17:09:39:390]     AddBinaryFileWarnings 
+[06/10/2020 17:09:39:390]     AddReferenceWarnings 
+[06/10/2020 17:09:39:390]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:09:39:390]     CheckVersionNumberConsistency 
+[06/10/2020 17:09:39:390]     CheckForMissingSourceFiles 
+[06/10/2020 17:09:39:391]   Updating warnings of Italian\EQMODit.vbp
+[06/10/2020 17:09:39:391]     AddMissingProjectWarnings 
+[06/10/2020 17:09:39:391]     AddBinaryFileWarnings 
+[06/10/2020 17:09:39:391]     AddReferenceWarnings 
+[06/10/2020 17:09:39:391]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:09:39:392]     CheckVersionNumberConsistency 
+[06/10/2020 17:09:39:392]     CheckForMissingSourceFiles 
+[06/10/2020 17:09:39:392]   Updating warnings of romanian\EQMODro.vbp
+[06/10/2020 17:09:39:392]     AddMissingProjectWarnings 
+[06/10/2020 17:09:39:392]     AddBinaryFileWarnings 
+[06/10/2020 17:09:39:392]     AddReferenceWarnings 
+[06/10/2020 17:09:39:393]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:09:39:393]     CheckVersionNumberConsistency 
+[06/10/2020 17:09:39:393]     CheckForMissingSourceFiles 
+[06/10/2020 17:09:39:393]   Updating warnings of Spanish\EQMODes.vbp
+[06/10/2020 17:09:39:393]     AddMissingProjectWarnings 
+[06/10/2020 17:09:39:394]     AddBinaryFileWarnings 
+[06/10/2020 17:09:39:394]     AddReferenceWarnings 
+[06/10/2020 17:09:39:394]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:09:39:394]     CheckVersionNumberConsistency 
+[06/10/2020 17:09:39:394]     CheckForMissingSourceFiles 
+[06/10/2020 17:09:39:394]   Auto resolving warnings...
+[06/10/2020 17:09:39:395] Total warning count is 6
+[06/10/2020 17:09:39:395] UpdateWarnings Finished
+[06/10/2020 17:09:39:395] Telemetria - Solution New  { Message: Success SolutionLoaded: True AllFilesFound: False RefsResolved: True OptionsAccepted: False Projects: 10 LOC: 74277 }
+[06/10/2020 17:14:06:364] Refreshing project: EQMOD_ASCOM5.vbp
+[06/10/2020 17:14:06:365]    inspecting project file refresh...
+[06/10/2020 17:14:06:372]    inspecting source code files refresh...
+[06/10/2020 17:14:06:794] Resolving project references from project EQMOD_ASCOM5.vbp
+[06/10/2020 17:14:06:794] Refreshing project: EQMOD_SIM_ASCOM5.vbp
+[06/10/2020 17:14:06:794]    inspecting project file refresh...
+[06/10/2020 17:14:06:802]    inspecting source code files refresh...
+[06/10/2020 17:14:07:230] Resolving project references from project EQMOD_SIM_ASCOM5.vbp
+[06/10/2020 17:14:07:230] Refreshing project: Dutch\EQMODnl.vbp
+[06/10/2020 17:14:07:230]    inspecting project file refresh...
+[06/10/2020 17:14:07:231]    inspecting source code files refresh...
+[06/10/2020 17:14:07:231] Resolving project references from project Dutch\EQMODnl.vbp
+[06/10/2020 17:14:07:231] Refreshing project: EQASCOM_Run\eqascom_run.vbp
+[06/10/2020 17:14:07:231]    inspecting project file refresh...
+[06/10/2020 17:14:07:232]    inspecting source code files refresh...
+[06/10/2020 17:14:07:234] Resolving project references from project EQASCOM_Run\eqascom_run.vbp
+[06/10/2020 17:14:07:234] Refreshing project: EQMOD_Toolbox\Project1.vbp
+[06/10/2020 17:14:07:234]    inspecting project file refresh...
+[06/10/2020 17:14:07:235]    inspecting source code files refresh...
+[06/10/2020 17:14:07:238] Resolving project references from project EQMOD_Toolbox\Project1.vbp
+[06/10/2020 17:14:07:238] Refreshing project: French\EQMODfr.vbp
+[06/10/2020 17:14:07:238]    inspecting project file refresh...
+[06/10/2020 17:14:07:239]    inspecting source code files refresh...
+[06/10/2020 17:14:07:239] Resolving project references from project French\EQMODfr.vbp
+[06/10/2020 17:14:07:239] Refreshing project: gpmonitor\Project1.vbp
+[06/10/2020 17:14:07:239]    inspecting project file refresh...
+[06/10/2020 17:14:07:240]    inspecting source code files refresh...
+[06/10/2020 17:14:07:244] Resolving project references from project gpmonitor\Project1.vbp
+[06/10/2020 17:14:07:244] Refreshing project: Italian\EQMODit.vbp
+[06/10/2020 17:14:07:244]    inspecting project file refresh...
+[06/10/2020 17:14:07:244]    inspecting source code files refresh...
+[06/10/2020 17:14:07:245] Resolving project references from project Italian\EQMODit.vbp
+[06/10/2020 17:14:07:245] Refreshing project: romanian\EQMODro.vbp
+[06/10/2020 17:14:07:245]    inspecting project file refresh...
+[06/10/2020 17:14:07:245]    inspecting source code files refresh...
+[06/10/2020 17:14:07:246] Resolving project references from project romanian\EQMODro.vbp
+[06/10/2020 17:14:07:246] Refreshing project: Spanish\EQMODes.vbp
+[06/10/2020 17:14:07:246]    inspecting project file refresh...
+[06/10/2020 17:14:07:247]    inspecting source code files refresh...
+[06/10/2020 17:14:07:247] Resolving project references from project Spanish\EQMODes.vbp
+[06/10/2020 17:14:07:247] Creating Internal References...
+[06/10/2020 17:14:07:280] Resolving project references...
+[06/10/2020 17:14:07:284] Resolving project references finished OK...
+[06/10/2020 17:14:07:298]   Updating warnings of EQMOD_ASCOM5.vbp
+[06/10/2020 17:14:07:298]     AddMissingProjectWarnings 
+[06/10/2020 17:14:07:298]     AddBinaryFileWarnings 
+[06/10/2020 17:14:07:298]     AddReferenceWarnings 
+[06/10/2020 17:14:07:299]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:14:07:299]     CheckVersionNumberConsistency 
+[06/10/2020 17:14:07:299]     CheckForMissingSourceFiles 
+[06/10/2020 17:14:07:302]   Updating warnings of EQMOD_SIM_ASCOM5.vbp
+[06/10/2020 17:14:07:302]     AddMissingProjectWarnings 
+[06/10/2020 17:14:07:302]     AddBinaryFileWarnings 
+[06/10/2020 17:14:07:302]     AddReferenceWarnings 
+[06/10/2020 17:14:07:302]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:14:07:303]     CheckVersionNumberConsistency 
+[06/10/2020 17:14:07:303]     CheckForMissingSourceFiles 
+[06/10/2020 17:14:07:306]   Updating warnings of Dutch\EQMODnl.vbp
+[06/10/2020 17:14:07:306]     AddMissingProjectWarnings 
+[06/10/2020 17:14:07:306]     AddBinaryFileWarnings 
+[06/10/2020 17:14:07:307]     AddReferenceWarnings 
+[06/10/2020 17:14:07:307]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:14:07:307]     CheckVersionNumberConsistency 
+[06/10/2020 17:14:07:307]     CheckForMissingSourceFiles 
+[06/10/2020 17:14:07:307]   Updating warnings of EQASCOM_Run\eqascom_run.vbp
+[06/10/2020 17:14:07:307]     AddMissingProjectWarnings 
+[06/10/2020 17:14:07:307]     AddBinaryFileWarnings 
+[06/10/2020 17:14:07:307]     AddReferenceWarnings 
+[06/10/2020 17:14:07:307]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:14:07:307]     CheckVersionNumberConsistency 
+[06/10/2020 17:14:07:308]     CheckForMissingSourceFiles 
+[06/10/2020 17:14:07:308]   Updating warnings of EQMOD_Toolbox\Project1.vbp
+[06/10/2020 17:14:07:308]     AddMissingProjectWarnings 
+[06/10/2020 17:14:07:308]     AddBinaryFileWarnings 
+[06/10/2020 17:14:07:308]     AddReferenceWarnings 
+[06/10/2020 17:14:07:308]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:14:07:308]     CheckVersionNumberConsistency 
+[06/10/2020 17:14:07:308]     CheckForMissingSourceFiles 
+[06/10/2020 17:14:07:309]   Updating warnings of French\EQMODfr.vbp
+[06/10/2020 17:14:07:309]     AddMissingProjectWarnings 
+[06/10/2020 17:14:07:309]     AddBinaryFileWarnings 
+[06/10/2020 17:14:07:309]     AddReferenceWarnings 
+[06/10/2020 17:14:07:309]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:14:07:309]     CheckVersionNumberConsistency 
+[06/10/2020 17:14:07:309]     CheckForMissingSourceFiles 
+[06/10/2020 17:14:07:309]   Updating warnings of gpmonitor\Project1.vbp
+[06/10/2020 17:14:07:309]     AddMissingProjectWarnings 
+[06/10/2020 17:14:07:309]     AddBinaryFileWarnings 
+[06/10/2020 17:14:07:309]     AddReferenceWarnings 
+[06/10/2020 17:14:07:310]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:14:07:310]     CheckVersionNumberConsistency 
+[06/10/2020 17:14:07:310]     CheckForMissingSourceFiles 
+[06/10/2020 17:14:07:310]   Updating warnings of Italian\EQMODit.vbp
+[06/10/2020 17:14:07:310]     AddMissingProjectWarnings 
+[06/10/2020 17:14:07:310]     AddBinaryFileWarnings 
+[06/10/2020 17:14:07:310]     AddReferenceWarnings 
+[06/10/2020 17:14:07:311]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:14:07:311]     CheckVersionNumberConsistency 
+[06/10/2020 17:14:07:311]     CheckForMissingSourceFiles 
+[06/10/2020 17:14:07:311]   Updating warnings of romanian\EQMODro.vbp
+[06/10/2020 17:14:07:311]     AddMissingProjectWarnings 
+[06/10/2020 17:14:07:311]     AddBinaryFileWarnings 
+[06/10/2020 17:14:07:311]     AddReferenceWarnings 
+[06/10/2020 17:14:07:311]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:14:07:311]     CheckVersionNumberConsistency 
+[06/10/2020 17:14:07:311]     CheckForMissingSourceFiles 
+[06/10/2020 17:14:07:311]   Updating warnings of Spanish\EQMODes.vbp
+[06/10/2020 17:14:07:311]     AddMissingProjectWarnings 
+[06/10/2020 17:14:07:311]     AddBinaryFileWarnings 
+[06/10/2020 17:14:07:311]     AddReferenceWarnings 
+[06/10/2020 17:14:07:311]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:14:07:311]     CheckVersionNumberConsistency 
+[06/10/2020 17:14:07:311]     CheckForMissingSourceFiles 
+[06/10/2020 17:14:07:311]   Auto resolving warnings...
+[06/10/2020 17:14:07:312] Total warning count is 6
+[06/10/2020 17:15:13:356] Telemetria - Phase Changed  { Stage: Upgrade SolutionLoaded: True AllFilesFound: False RefsResolved: True OptionsAccepted: False }
+[06/10/2020 17:15:27:474] Telemetria - Phase Changed  { Stage: Solution SolutionLoaded: True AllFilesFound: False RefsResolved: True OptionsAccepted: False }
+[06/10/2020 17:15:29:299] Telemetria - Phase Changed  { Stage: Solution SolutionLoaded: True AllFilesFound: False RefsResolved: True OptionsAccepted: False }
+[06/10/2020 17:15:30:123] Telemetria - Phase Changed  { Stage: Solution SolutionLoaded: True AllFilesFound: False RefsResolved: True OptionsAccepted: False }
+[06/10/2020 17:15:30:355] Telemetria - Phase Changed  { Stage: Solution SolutionLoaded: True AllFilesFound: False RefsResolved: True OptionsAccepted: False }
+[06/10/2020 17:15:36:956] Telemetria - Phase Changed  { Stage: Options SolutionLoaded: True AllFilesFound: False RefsResolved: True OptionsAccepted: False }
+[06/10/2020 17:15:57:591] Telemetria - Phase Changed  { Stage: Solution SolutionLoaded: True AllFilesFound: False RefsResolved: True OptionsAccepted: False }
+[06/10/2020 17:18:00:390] Remove project EQMOD_Toolbox\Project1.vbp
+[06/10/2020 17:18:00:396]    Recount lines of code of projects.
+[06/10/2020 17:18:04:417] Refreshing project: EQMOD_ASCOM5.vbp
+[06/10/2020 17:18:04:417]    inspecting project file refresh...
+[06/10/2020 17:18:04:425]    inspecting source code files refresh...
+[06/10/2020 17:18:04:846] Resolving project references from project EQMOD_ASCOM5.vbp
+[06/10/2020 17:18:04:846] Refreshing project: EQMOD_SIM_ASCOM5.vbp
+[06/10/2020 17:18:04:846]    inspecting project file refresh...
+[06/10/2020 17:18:04:855]    inspecting source code files refresh...
+[06/10/2020 17:18:05:266] Resolving project references from project EQMOD_SIM_ASCOM5.vbp
+[06/10/2020 17:18:05:266] Refreshing project: Dutch\EQMODnl.vbp
+[06/10/2020 17:18:05:266]    inspecting project file refresh...
+[06/10/2020 17:18:05:266]    inspecting source code files refresh...
+[06/10/2020 17:18:05:267] Resolving project references from project Dutch\EQMODnl.vbp
+[06/10/2020 17:18:05:267] Refreshing project: EQASCOM_Run\eqascom_run.vbp
+[06/10/2020 17:18:05:267]    inspecting project file refresh...
+[06/10/2020 17:18:05:267]    inspecting source code files refresh...
+[06/10/2020 17:18:05:269] Resolving project references from project EQASCOM_Run\eqascom_run.vbp
+[06/10/2020 17:18:05:269] Refreshing project: French\EQMODfr.vbp
+[06/10/2020 17:18:05:269]    inspecting project file refresh...
+[06/10/2020 17:18:05:270]    inspecting source code files refresh...
+[06/10/2020 17:18:05:270] Resolving project references from project French\EQMODfr.vbp
+[06/10/2020 17:18:05:270] Refreshing project: gpmonitor\Project1.vbp
+[06/10/2020 17:18:05:270]    inspecting project file refresh...
+[06/10/2020 17:18:05:271]    inspecting source code files refresh...
+[06/10/2020 17:18:05:273] Resolving project references from project gpmonitor\Project1.vbp
+[06/10/2020 17:18:05:273] Refreshing project: Italian\EQMODit.vbp
+[06/10/2020 17:18:05:273]    inspecting project file refresh...
+[06/10/2020 17:18:05:274]    inspecting source code files refresh...
+[06/10/2020 17:18:05:274] Resolving project references from project Italian\EQMODit.vbp
+[06/10/2020 17:18:05:274] Refreshing project: romanian\EQMODro.vbp
+[06/10/2020 17:18:05:274]    inspecting project file refresh...
+[06/10/2020 17:18:05:275]    inspecting source code files refresh...
+[06/10/2020 17:18:05:275] Resolving project references from project romanian\EQMODro.vbp
+[06/10/2020 17:18:05:275] Refreshing project: Spanish\EQMODes.vbp
+[06/10/2020 17:18:05:275]    inspecting project file refresh...
+[06/10/2020 17:18:05:276]    inspecting source code files refresh...
+[06/10/2020 17:18:05:276] Resolving project references from project Spanish\EQMODes.vbp
+[06/10/2020 17:18:05:276] Creating Internal References...
+[06/10/2020 17:18:05:293] Resolving project references...
+[06/10/2020 17:18:05:296] Resolving project references finished OK...
+[06/10/2020 17:18:05:309]   Updating warnings of EQMOD_ASCOM5.vbp
+[06/10/2020 17:18:05:309]     AddMissingProjectWarnings 
+[06/10/2020 17:18:05:309]     AddBinaryFileWarnings 
+[06/10/2020 17:18:05:309]     AddReferenceWarnings 
+[06/10/2020 17:18:05:309]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:18:05:309]     CheckVersionNumberConsistency 
+[06/10/2020 17:18:05:310]     CheckForMissingSourceFiles 
+[06/10/2020 17:18:05:313]   Updating warnings of EQMOD_SIM_ASCOM5.vbp
+[06/10/2020 17:18:05:313]     AddMissingProjectWarnings 
+[06/10/2020 17:18:05:313]     AddBinaryFileWarnings 
+[06/10/2020 17:18:05:313]     AddReferenceWarnings 
+[06/10/2020 17:18:05:314]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:18:05:314]     CheckVersionNumberConsistency 
+[06/10/2020 17:18:05:314]     CheckForMissingSourceFiles 
+[06/10/2020 17:18:05:317]   Updating warnings of Dutch\EQMODnl.vbp
+[06/10/2020 17:18:05:317]     AddMissingProjectWarnings 
+[06/10/2020 17:18:05:318]     AddBinaryFileWarnings 
+[06/10/2020 17:18:05:318]     AddReferenceWarnings 
+[06/10/2020 17:18:05:318]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:18:05:318]     CheckVersionNumberConsistency 
+[06/10/2020 17:18:05:318]     CheckForMissingSourceFiles 
+[06/10/2020 17:18:05:318]   Updating warnings of EQASCOM_Run\eqascom_run.vbp
+[06/10/2020 17:18:05:318]     AddMissingProjectWarnings 
+[06/10/2020 17:18:05:318]     AddBinaryFileWarnings 
+[06/10/2020 17:18:05:318]     AddReferenceWarnings 
+[06/10/2020 17:18:05:318]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:18:05:319]     CheckVersionNumberConsistency 
+[06/10/2020 17:18:05:319]     CheckForMissingSourceFiles 
+[06/10/2020 17:18:05:319]   Updating warnings of French\EQMODfr.vbp
+[06/10/2020 17:18:05:319]     AddMissingProjectWarnings 
+[06/10/2020 17:18:05:319]     AddBinaryFileWarnings 
+[06/10/2020 17:18:05:319]     AddReferenceWarnings 
+[06/10/2020 17:18:05:319]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:18:05:320]     CheckVersionNumberConsistency 
+[06/10/2020 17:18:05:320]     CheckForMissingSourceFiles 
+[06/10/2020 17:18:05:320]   Updating warnings of gpmonitor\Project1.vbp
+[06/10/2020 17:18:05:320]     AddMissingProjectWarnings 
+[06/10/2020 17:18:05:320]     AddBinaryFileWarnings 
+[06/10/2020 17:18:05:320]     AddReferenceWarnings 
+[06/10/2020 17:18:05:320]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:18:05:321]     CheckVersionNumberConsistency 
+[06/10/2020 17:18:05:321]     CheckForMissingSourceFiles 
+[06/10/2020 17:18:05:321]   Updating warnings of Italian\EQMODit.vbp
+[06/10/2020 17:18:05:321]     AddMissingProjectWarnings 
+[06/10/2020 17:18:05:321]     AddBinaryFileWarnings 
+[06/10/2020 17:18:05:321]     AddReferenceWarnings 
+[06/10/2020 17:18:05:321]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:18:05:322]     CheckVersionNumberConsistency 
+[06/10/2020 17:18:05:322]     CheckForMissingSourceFiles 
+[06/10/2020 17:18:05:322]   Updating warnings of romanian\EQMODro.vbp
+[06/10/2020 17:18:05:322]     AddMissingProjectWarnings 
+[06/10/2020 17:18:05:322]     AddBinaryFileWarnings 
+[06/10/2020 17:18:05:322]     AddReferenceWarnings 
+[06/10/2020 17:18:05:322]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:18:05:322]     CheckVersionNumberConsistency 
+[06/10/2020 17:18:05:322]     CheckForMissingSourceFiles 
+[06/10/2020 17:18:05:322]   Updating warnings of Spanish\EQMODes.vbp
+[06/10/2020 17:18:05:322]     AddMissingProjectWarnings 
+[06/10/2020 17:18:05:322]     AddBinaryFileWarnings 
+[06/10/2020 17:18:05:322]     AddReferenceWarnings 
+[06/10/2020 17:18:05:323]     CheckOutputPathsAreEmpty 
+[06/10/2020 17:18:05:323]     CheckVersionNumberConsistency 
+[06/10/2020 17:18:05:323]     CheckForMissingSourceFiles 
+[06/10/2020 17:18:05:323]   Auto resolving warnings...
+[06/10/2020 17:18:05:323] Total warning count is 2
+[06/10/2020 17:18:10:750] Telemetria - Phase Changed  { Stage: Options SolutionLoaded: True AllFilesFound: True RefsResolved: True OptionsAccepted: False }
+[06/10/2020 17:18:18:785] Telemetria - Phase Changed  { Stage: Upgrade SolutionLoaded: True AllFilesFound: True RefsResolved: True OptionsAccepted: True }
+[06/10/2020 17:18:46:620] Telemetria - Phase Changed  { Stage: Solution SolutionLoaded: True AllFilesFound: True RefsResolved: True OptionsAccepted: True }
+[06/10/2020 17:18:54:608] Remove project Dutch\EQMODnl.vbp
+[06/10/2020 17:18:54:611]    Recount lines of code of projects.
+[06/10/2020 17:18:58:370] Remove project French\EQMODfr.vbp
+[06/10/2020 17:18:58:373]    Recount lines of code of projects.
+[06/10/2020 17:19:02:385] Remove project Italian\EQMODit.vbp
+[06/10/2020 17:19:02:389]    Recount lines of code of projects.
+[06/10/2020 17:19:05:624] Remove project gpmonitor\Project1.vbp
+[06/10/2020 17:19:05:628]    Recount lines of code of projects.
+[06/10/2020 17:19:10:313] Remove project romanian\EQMODro.vbp
+[06/10/2020 17:19:10:316]    Recount lines of code of projects.
+[06/10/2020 17:19:13:345] Remove project Spanish\EQMODes.vbp
+[06/10/2020 17:19:13:349]    Recount lines of code of projects.
+[06/10/2020 17:19:17:178] Remove project EQMOD_SIM_ASCOM5.vbp
+[06/10/2020 17:19:17:194]    Recount lines of code of projects.
+[06/10/2020 17:19:27:299] Remove project EQASCOM_Run\eqascom_run.vbp
+[06/10/2020 17:19:27:303]    Recount lines of code of projects.
+[06/10/2020 17:19:47:461] Telemetria - Phase Changed  { Stage: Upgrade SolutionLoaded: True AllFilesFound: True RefsResolved: True OptionsAccepted: True }
+[06/10/2020 17:19:52:902]    Recount lines of code of projects.
+[06/10/2020 17:19:53:304] Telemetria - Migration Started  { LicenseStatus: Warning Action: Preprocess Projects: 1 LOC: 35655 LOCRemaining: 30000 Target: .csproj VSVersion: VisualStudio2017 HelpersIntegration: SourceCode RAM: 2047Mb }
+[06/10/2020 17:20:10:860] Telemetria - Activation Browse License  { Message: Aborted }
+[06/10/2020 17:21:14:319] Telemetria - CloseSession
+[06/10/2020 17:21:14:524] Telemetria Session Closed

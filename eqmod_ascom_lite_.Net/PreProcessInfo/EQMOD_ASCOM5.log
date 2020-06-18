@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UpgradeLog>
+  <Settings>
+    <Setting Name="LogFile" Value="EQMOD_ASCOM5.log" />
+    <Setting Name="GenerateInterfacesForClasses" Value="FALSE" />
+    <Setting Name="ProjectName" Value="EQMOD_ASCOM5" />
+    <Setting Name="OutputName" Value="EQMOD_ASCOM5.csproj" />
+    <Setting Name="OutputDir" Value="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\" />
+    <Setting Name="ProjectPath" Value="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\EQMOD_ASCOM5.vbp" />
+    <Setting Name="MigrateProjectTo" Value="Library" />
+  </Settings>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\ASCOMV5\Rate.cls" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\ASCOMV5\Rate.cs" FileType="Class Module" Upgraded="True" />
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\ASCOMV5\Rates.cls" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\ASCOMV5\Rates.cs" FileType="Class Module" Upgraded="True" />
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\ASCOMV5\Telescope.cls" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\ASCOMV5\Telescope.cs" FileType="Class Module" Upgraded="True" />
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\ASCOMV5\TrackingRates.cls" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\ASCOMV5\TrackingRates.cs" FileType="Class Module" Upgraded="True" />
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\eqmodnmea.cls" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\eqmodnmea.cs" FileType="Class Module" Upgraded="True" />
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Persist.cls" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\Persist.cs" FileType="Class Module" Upgraded="True" />
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Alignment.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\Alignment.cs" FileType="Module" Upgraded="True">
+    <Section Name="(Parsing)">
+      <Issue Type="Compile" Number="4005" Qty="1">Alignment is a Visual Basic 5.0 file.  For best results, upgrade the Module to Visual Basic 6.0 before upgrading it to .NET</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Common.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\Common.cs" FileType="Module" Upgraded="True">
+    <Section Name="(Parsing)">
+      <Issue Type="Compile" Number="4005" Qty="1">Common is a Visual Basic 5.0 file.  For best results, upgrade the Module to Visual Basic 6.0 before upgrading it to .NET</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Definitions.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\Definitions.cs" FileType="Module" Upgraded="True" />
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\eqcontrl.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\eqcontrl.cs" FileType="Module" Upgraded="True" />
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\EQMath.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\EQMath.cs" FileType="Module" Upgraded="True">
+    <Section Name="(Parsing)">
+      <Issue Type="Compile" Number="4005" Qty="1">EQMath is a Visual Basic 5.0 file.  For best results, upgrade the Module to Visual Basic 6.0 before upgrading it to .NET</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\eqmodvector.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\eqmodvector.cs" FileType="Module" Upgraded="True" />
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\ErrorConstants.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\ErrorConstants.cs" FileType="Module" Upgraded="True" />
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Goto.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\Goto.cs" FileType="Module" Upgraded="True">
+    <Section Name="(Parsing)">
+      <Issue Type="Compile" Number="4005" Qty="1">Goto is a Visual Basic 5.0 file.  For best results, upgrade the Module to Visual Basic 6.0 before upgrading it to .NET</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Limits.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\Limits.cs" FileType="Module" Upgraded="True" />
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Monitor.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\Monitor.cs" FileType="Module" Upgraded="True" />
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Mount.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\Mount.cs" FileType="Module" Upgraded="True" />
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Nstar_Polar.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\Nstar_Polar.cs" FileType="Module" Upgraded="True">
+    <Section Name="(Parsing)">
+      <Issue Type="Compile" Number="4005" Qty="1">Nstar_Polar is a Visual Basic 5.0 file.  For best results, upgrade the Module to Visual Basic 6.0 before upgrading it to .NET</Issue>
+    </Section>
+  </File>
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\PEC.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\PEC.cs" FileType="Module" Upgraded="True" />
+  <File OldPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite\Tracking.bas" NewPath="C:\Users\phil\OneDrive - UNITY (UK) LTD\Projects\eqmod_ascom_lite_.Net\PreProcessInfo\Tracking.cs" FileType="Module" Upgraded="True" />
+</UpgradeLog>
+

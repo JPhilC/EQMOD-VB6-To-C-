@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VisualBasicProjectFile>EQMOD_ASCOM5.vbp</VisualBasicProjectFile>
+    <Name>EQMOD_ASCOM5</Name>
+    <RootNamespace>EQMOD_ASCOM5</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>00b9f2ed-8566-48ec-84ab-bdb0d904fc11</ProjectGuid>
+    <ProjectTypeGuids>{9621999f-d20f-4a2f-b597-c8928534e032}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <StartupFile>Form1.frm</StartupFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Align.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Alignment.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AscomTrace.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="AscomTrace.frx">
+      <SubType>Content</SubType>
+      <DependentUpon>AscomTrace.frm</DependentUpon>
+    </Content>
+    <Content Include="ASCOMV5\Rate.cls">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ASCOMV5\Rates.cls">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ASCOMV5\Telescope.cls">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ASCOMV5\TrackingRates.cls">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="astro32.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ColorPick.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ColorPick.frx">
+      <SubType>Content</SubType>
+      <DependentUpon>ColorPick.frm</DependentUpon>
+    </Content>
+    <Content Include="CommentDlg.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Common.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="CustomMountDlg.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="CustomMountDlg.frx">
+      <SubType>Content</SubType>
+      <DependentUpon>CustomMountDlg.frm</DependentUpon>
+    </Content>
+    <Content Include="DefineParkForm.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DefineParkForm.frx">
+      <SubType>Content</SubType>
+      <DependentUpon>DefineParkForm.frm</DependentUpon>
+    </Content>
+    <Content Include="Definitions.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="eqcontrl.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="EQMath.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="eqmodnmea.cls">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="eqmodvector.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="EQMOD_ASCOM5.vbp">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ErrorConstants.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FeaturesDlg.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FFT.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FileDlg.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="FileDlg.frx">
+      <SubType>Content</SubType>
+      <DependentUpon>FileDlg.frm</DependentUpon>
+    </Content>
+    <Content Include="Goto.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GotoDialog.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GotoDialog.frx">
+      <SubType>Content</SubType>
+      <DependentUpon>GotoDialog.frm</DependentUpon>
+    </Content>
+    <Content Include="GPSSetup.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GPSSetup.frx">
+      <SubType>Content</SubType>
+      <DependentUpon>GPSSetup.frm</DependentUpon>
+    </Content>
+    <Content Include="Graphics.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HCsmall.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="HCsmall.frx">
+      <SubType>Content</SubType>
+      <DependentUpon>HCsmall.frm</DependentUpon>
+    </Content>
+    <Content Include="JStickConfig.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="JStickConfig.frx">
+      <SubType>Content</SubType>
+      <DependentUpon>JStickConfig.frm</DependentUpon>
+    </Content>
+    <Content Include="JStickKbrd.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LangDll.cls">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Language.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LaunchApp.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LimitEditForm.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="LimitEditForm.frx">
+      <SubType>Content</SubType>
+      <DependentUpon>LimitEditForm.frm</DependentUpon>
+    </Content>
+    <Content Include="Limits.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Monitor.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Mount.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="MouseWheel.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Nstar_Polar.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Parking.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="PEC.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="PECConfigFrm.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="PECConfigFrm.frx">
+      <SubType>Content</SubType>
+      <DependentUpon>PECConfigFrm.frm</DependentUpon>
+    </Content>
+    <Content Include="Persist.cls">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="polarfrm.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="polarfrm.frx">
+      <SubType>Content</SubType>
+      <DependentUpon>polarfrm.frm</DependentUpon>
+    </Content>
+    <Content Include="ProcessPriority.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ProgressFrm.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Setupfrm.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Setupfrm.frx">
+      <SubType>Content</SubType>
+      <DependentUpon>Setupfrm.frm</DependentUpon>
+    </Content>
+    <Content Include="Sites.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Slewpad.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Sounds.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SoundsFrm.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SoundsFrm.frx">
+      <SubType>Content</SubType>
+      <DependentUpon>SoundsFrm.frm</DependentUpon>
+    </Content>
+    <Content Include="StarEditForm.frm">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="StarEditForm.frx">
+      <SubType>Content</SubType>
+      <DependentUpon>StarEditForm.frm</DependentUpon>
+    </Content>
+    <Content Include="Tracking.bas">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="UpdateCheck.bas">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ASCOMV5" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <Target Name="CreateManifestResourceNames">
+  </Target>
+  <Target Name="CoreCompile">
+  </Target>
+</Project>

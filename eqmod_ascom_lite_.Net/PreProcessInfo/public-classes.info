@@ -1,0 +1,1 @@
+[segment [list* "Project1.Persist" #t] [list* "Project1.TrackingRates" #t] [list* "Project1.Telescope" #t] [list* "Project1.Rates" #t] [list* "Project1.Rate" #t]]
